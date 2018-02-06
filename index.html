@@ -37,14 +37,17 @@
     <!-- Let's do this in one row! use CSS styling to insert background image into ROW-->
 
     <div class="container">
-        <div class="row" style=background-image:url( 'assets/images/round.png')>
+        <div class="row" style="background-image:url('assets/images/round.png')">
             <!-- subrow 1 with headers -->
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" 
+                    style="background-color: white; text-align:center; padding=10px">
                     <h1>About Me</h1>
+                    <hr> 
                 </div>
                 <div class="col-md-4"></div>
-                <div class="col-md-4">
+                <div class="col-md-4"
+                    style="background-color:white; text-align:center; padding=10px">
                     <h2>Contact Me</h2>
                 </div>
             </div>
@@ -52,11 +55,14 @@
             <div class="row">
                 <div class="col-md-6">
                     <!-- colum with face and text -->
-                    <img style="width:200px;height:200px;" float="left;" src="assets/images/face.png" alt="myFace.jpeg">
+                    <div class="pull-left"
+                            style="width:200px";
+                            src="assets/images/face.png";
+                            alt="myFace.jpeg"></div>
                     <!-- float these Paragraphs -->
-                    <p>Welcome to my github.io page! I'm currently in a coding bootcamp and learning how to create pages using
+                    <div class="pull-left">Welcome to my github.io page! I'm currently in a coding bootcamp and learning how to create pages using
                         CSS. This version of my site was done without bootstrap.
-                    </p>
+                    </div>
                 </div>
                 <!-- Space holder -->
                 <div class="col-md-2"></div>
