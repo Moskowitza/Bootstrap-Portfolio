@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Aaron Moskowitz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking two sheets, reset.css and style.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Aaron Moskowitz</a>
+            </div>
+            <ul style="float: right" class="nav navbar-nav">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- main area of the page with background image -->
+    <!-- Let's do this in one row! use CSS styling to insert background image into ROW-->
+
+    <div class="container">
+        <div class="row" style=background-image:url( 'assets/images/round.png')>
+            <!-- subrow 1 with headers -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>About Me</h1>
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <!-- Face & TEXT -->
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- colum with face and text -->
+                    <img style="width:200px;height:200px;" float="left;" src="assets/images/face.png" alt="myFace.jpeg">
+                    <!-- float these Paragraphs -->
+                    <p>Welcome to my github.io page! I'm currently in a coding bootcamp and learning how to create pages using
+                        CSS. This version of my site was done without bootstrap.
+                    </p>
+                </div>
+                <!-- Space holder -->
+                <div class="col-md-2"></div>
+                <!-- Column 3 -->
+                <div class="col-md-4">
+                    <a href="https://github.com/Moskowitza">
+                        <img src="assets/images/git.png" alt="github logo">
+                    </a>
+                    <a href "https://www.linkedin.com/in/aaron-moskowitz-0970751/">
+                        <img src="assets/images/linkedin.png" alt="linkedin logo">
+                    </a>
+                    <a href "https://stackoverflow.com/users/9057152/aaronm?tab=profile">
+                        <img src="assets/images/stackoverflow.png" alt="stackoverflow logo">
+                    </a>
+                </div>
+            </div>
+            <!-- close master row -->
+        </div>
+
+        <div class="row">
+            <footer class="col-md-12"
+                    style="background-color:gray; text-align:center;">
+                    &#x24B8 copyright 2018 Aaron Moskowitz</footer>
+        </div>
+    </div>
+</body>
+
+</html>
