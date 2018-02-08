@@ -1,9 +1,15 @@
 /* /Users/macPRO/Bootstrap-Portfolio/assets/css/style.css */
 .wallpaper{
-background-color:pink
+background-image:url("../images/round.png");
 }
-.column{
+.about{
 background-color:white; 
 float:left; 
-margin:10px"
+margin:10px;
+padding:20px;
+}
+.connect{
+background-color:white; 
+float:left; 
+margin:10px;
 }
