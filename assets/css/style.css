@@ -13,3 +13,31 @@ background-color:white;
 float:left; 
 margin:10px;
 }
+.foot{
+    background-color:gray; 
+    text-align:center;
+}
+.portfolioBox{
+    float:left;
+    background-color: white;
+    margin: 0px;
+    border: 0px;
+    padding: 20px;
+}
+.portfolio{
+    float:left;
+    width: 200px;
+    margin:10px;
+}
+.portfolioName{
+    float:left;
+    position:relative;
+    bottom:50px;
+    text-align: center;
+    font-size: 12pt;
+    color:#cccccc;
+    background-color: #4aaaa5;
+    width: 200px;
+    border: 0px;
+    padding: 10px;
+    }
