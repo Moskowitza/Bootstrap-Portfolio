@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!-- Nav bar, with Vanilla Bootstrap (no sprinkles) -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -36,29 +37,32 @@
     </nav>
     <!-- main area of the page with background image -->
     <!-- Let's do this in one row! 
-        Use CSS styling to insert background image into ROW
+    Use CSS styling to insert background image into ROW
     Create two subrows: a header row, content row-->
 
+    <!-- CONTAINER -->
     <div class="container">
+        <!-- THE MAIN ROW, can we get a background image? -->
         <div class="row wallpaper">
-            <div class="row about">
-                <!-- column 1 About Me -->
-                <div class="col-md-6">
-                        <h1>About Me</h1>
-                        <hr>
-                        <div class="pull-left about">
-                            <img class="media-object about"  
-                            src="assets/images/face.png" alt="myFace.jpeg"> </div>
-                            <!-- body of text, try to get it to wrap around image -->
-                            <div class="pull-left about"> class="about">Welcome to my github.io page! I'm currently in a coding bootcamp and learning how to create pages
-                                using CSS. This version of my site was done with bootstrap. When I'm not working on my homework for bootcamp I'm keeping busy with a few other projects. My main gig is over at the Biomedical Research and Education Foundation. The foundation is focused on patient saftey and medical techology. I have a host of hobbies and interests. If I'm not over at WeWork in Northern Liberties or the Pennovation center, I'm over at the climbing gym. Fingers crossed I find the time to get outside this year.
-                            </div>
+            <!-- column 1 About Me -->
+            <div class="col-md-6">
+                <h1>About Me</h1>
+                <hr>
+                <div class="pull-left about">
+                    <img class="media-object about" src="assets/images/face.png" alt="myFace.jpeg">
+                    <!-- body of text, try to get it to wrap around image -->
+                    Welcome to my github.io page! I'm currently in a coding bootcamp and learning how to create pages using CSS. This version
+                    of my site was done with bootstrap. When I'm not working on my homework for bootcamp I'm keeping busy
+                    with a few other projects. My main gig is over at the Biomedical Research and Education Foundation. The
+                    foundation is focused on patient saftey and medical techology. I have a host of hobbies and interests.
+                    If I'm not over at WeWork in Northern Liberties or the Pennovation center, I'm over at the climbing gym.
+                    Fingers crossed I find the time to get outside this year.
                 </div>
-
-                <!-- Column 2: Space Holder -->
-                <div class="col-md-2"></div>
-                <!-- Column 3: Connect With Me -->
-                <div class="col-md-4 connect" style="align-content:center">
+            </div>
+            <!-- Column 2: Space Holder -->
+            <!-- <div class="col-md-2"></div> -->
+            <!-- Column 3: Connect With Me -->
+            <!-- <div class="col-md-4 connect" style="align-content:center">
                     <div>
                         <h2>Connect with Me</h2>
                         <a href="https://github.com/Moskowitza">
@@ -71,14 +75,14 @@
                             <img src="assets/images/stackoverflow.png" alt="stackoverflow logo">
                         </a>
                     </div>
-                </div>
-            </div>
+                </div> -->
         </div>
-        <!-- footer Row -->
-        <div class="row">
-            <footer class="col-md-12" style="background-color:gray; text-align:center;">
-                &#x24B8 copyright 2018 Aaron Moskowitz</footer>
-        </div>
+    </div>
+    <!-- footer Row -->
+    <div class="row">
+        <footer class="col-md-12" style="background-color:gray; text-align:center;">
+            &#x24B8 copyright 2018 Aaron Moskowitz</footer>
+    </div>
     </div>
 </body>
 
