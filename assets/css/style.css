@@ -1,6 +1,6 @@
 /* /Users/macPRO/Bootstrap-Portfolio/assets/css/style.css */
 .wallpaper{
-background-image:url("/Users/aaronmoskowitz/Bootstrap-Portfolio/assets/images/round.png");
+background-image: url('/Users/macPRO/Bootstrap-Portfolio/assets/images/round.png');
 }
 .about{
 background-color:white; 
@@ -8,6 +8,19 @@ float:left;
 margin:0px;
 padding:20px;
 }
+.logo{
+background-color:#4aaaa5;
+font:white;
+font-size: 32px;
+}
+
+.nav{
+    float:right;
+}
+body{
+    background-image: url("assets/images/round.png");
+}
+
 .connect{
 background-color:white; 
 float:left; 

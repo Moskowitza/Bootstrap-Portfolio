@@ -18,23 +18,23 @@
 <body>
     <!-- Nav bar, with Vanilla Bootstrap (no sprinkles) -->
     <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Aaron Moskowitz</a>
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand logo" href="index.html">Aaron Moskowitz</a>
+                </div>
+                <ul style="float:right" class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <ul style="float:right" class="nav navbar-nav">
-                <li>
-                    <a href="index.html">About</a>
-                </li>
-                <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        </nav>
     <!-- main area of the page with background image -->
     <!-- Let's do this in one row! 
     Use CSS styling to insert background image into ROW
@@ -44,8 +44,8 @@
     <div class="container">
         <!-- THE MAIN ROW, "wallpaper" class just hold background image -->
         <div class="row wallpaper">
-            <!-- column 1 About Me -->
-            <div class="col-sm-6">
+            <!-- column 1 About Me takes 2/3rd page -->
+            <div class="col-sm-8">
                 <!-- Put a DIV in this column, for each page. ABOUT, Portfolio, Connect -->
                 <div class="pull-left about">
                     <h1>About Me</h1>
@@ -60,9 +60,8 @@
                     Fingers crossed I find the time to get outside this year.
                 </div>
             </div>
-            <!-- Column 2: Space Holder with no styling-->
-            <div class="col-sm-2"></div>
-            <!-- Column 3: Connect With Me -->
+
+            <!-- Column 2 takes up 1/3 page  -->
             <div class="col-sm-4">
                 <!-- column 3 Connect -->
                 <div class="connect">
@@ -70,10 +69,10 @@
                     <a href="https://github.com/Moskowitza">
                         <img src="assets/images/git.png" alt="github logo">
                     </a>
-                    <a href "https://www.linkedin.com/in/aaron-moskowitz-0970751/">
+                    <a href="https://www.linkedin.com/in/aaron-moskowitz-0970751/">
                         <img src="assets/images/linkedin.png" alt="linkedin logo">
                     </a>
-                    <a href "https://stackoverflow.com/users/9057152/aaronm?tab=profile">
+                    <a href="https://stackoverflow.com/users/9057152/aaronm?tab=profile">
                         <img src="assets/images/stackoverflow.png" alt="stackoverflow logo">
                     </a>
                 </div>

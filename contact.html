@@ -15,13 +15,13 @@
 </head>
 
 <body>
-       <!-- Nav bar, with Vanilla Bootstrap (no sprinkles) -->
+       <!-- Nav bar, with Vanilla Bootstrap -->
        <nav class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Aaron Moskowitz</a>
+                    <a class="navbar-brand logo" href="index.html">Aaron Moskowitz</a>
                 </div>
-                <ul style="float:right" class="nav navbar-nav">
+                <ul class="nav navbar-nav">
                     <li>
                         <a href="index.html">About</a>
                     </li>
@@ -34,42 +34,61 @@
                 </ul>
             </div>
         </nav>
+        <div class="container">
+            <!-- THE MAIN ROW, "wallpaper" class just hold background image -->
+            <div class="row wallpaper">
+                <!-- column 1 About Me -->
+                <div class="col-sm-8">
+                    <!-- Put a DIV in this column, for each page. ABOUT, Portfolio, Connect -->
+                    <div class="pull-left about">
+                            <div id="aboutme">
+                                    <h1>Contact</h1>
+                                    <hr> Name
+                                    <br>
+                                    <input name="name" type="text">
+                                    <br> Email
+                                    <br>
+                                    <input name="email" type="text">
+                                    <br> Message
+                                    <br>
+                                    <textarea name="message" rows="10" cols="30"></textarea>
+                                    <br>
+                                    <button type="button">Submit</button>
+                                </div>
+                    
+                    </div>
+                </div>
 
+                <!-- Column 2: Connect With Me -->
+                <div class="col-sm-4">
+                    <!-- column 3 Connect -->
+                    <div class="connect">
+                        <h2>Connect with Me</h2>
+                        <a href="https://github.com/Moskowitza">
+                            <img src="assets/images/git.png" alt="github logo">
+                        </a>
+                        <a href="https://www.linkedin.com/in/aaron-moskowitz-0970751/">
+                            <img src="assets/images/linkedin.png" alt="linkedin logo">
+                        </a>
+                        <a href="https://stackoverflow.com/users/9057152/aaronm?tab=profile">
+                            <img src="assets/images/stackoverflow.png" alt="stackoverflow logo">
+                        </a>
+                    </div>
+                </div>
+                <!--end Div Col 3-->
+            </div>
+            <!--end Div ROW-->
+        </div>
+        <!--end Div Container-->
 
         <!-- main area of the page with background image -->
-        <section>
 
-            <div id="aboutme">
-                <h1>Contact</h1>
-                <hr> Name
-                <br>
-                <input name="name" type="text">
-                <br> Email
-                <br>
-                <input name="email" type="text">
-                <br> Message
-                <br>
-                <textarea name="message" rows="10" cols="30"></textarea>
-                <br>
-                <button type="button">Submit</button>
-            </div>
-            <div id="connect">
-                <h2>Connect with Me</h2>
-                <hr>
-                <a href="https://github.com/Moskowitza">
-                    <img src="assets/images/git.png" alt="github logo">
-                </a>
-                <a href "https://www.linkedin.com/in/aaron-moskowitz-0970751/">
-                    <img src="assets/images/linkedin.png" alt="linkedin logo">
-                </a>
-                <a href "https://stackoverflow.com/users/9057152/aaronm?tab=profile">
-                    <img src="assets/images/stackoverflow.png" alt="stackoverflow logo">
-                </a>
-        </section>
-        <footer>
-            &#x24B8 copyright 2018 Aaron Moskowitz
-        </footer>
-        </div>
+
+        <div class="row">
+                <footer class="col-md-12 foot">
+        
+                    &#x24B8 copyright 2018 Aaron Moskowitz</footer>
+         </div>
 </body>
 
 </html>
